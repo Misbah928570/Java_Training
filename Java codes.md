@@ -1,4 +1,5 @@
 -> Java code for adding all elements in an integer
+```
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -14,10 +15,10 @@ class Main {
         System.out.println(s);
     }
 }
-
+```
 
 -> sum of squares of even digits from an integer
-
+```
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -38,10 +39,10 @@ class Main {
         System.out.println(s);
     }
 }
-
+```
 
 -> sum of all the powers of digits w.r.t to their position
-
+```
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
@@ -60,7 +61,7 @@ class Main {
         System.out.println(s);
     }
 }
-
+```
 -> Array decleration
 int[] arr = {2,5,2,5};
         // in java when we declare array it already initialize it to 0's
@@ -68,6 +69,7 @@ int[] arr = {2,5,2,5};
 
 
 -> Sum of an array elements
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -86,9 +88,10 @@ class Prg {
         
     }
 }
-
+```
 
 -> count of even and odd nums  an array
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -110,10 +113,11 @@ class Prg {
         
     }
 }
-
+```
 
 
 -> print consecutive numbers sum in an array
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -133,9 +137,10 @@ class Prg {
         
     }
 }
-
+```
 
 -> largest element in an array
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -158,9 +163,10 @@ class Prg {
         
     }
 }
-
+```
 
 -> add the array elements with its reversed array nums
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -181,8 +187,10 @@ class Prg {
         
     }
 }
+```
 
 -> palindrome or not (two pointer approach)
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -209,9 +217,10 @@ class Prg {
         
     }
 }
-
+```
 
 -> Revering the array
+```
 import java.util.Arrays;
 import java.util.Scanner;
 class Prg {
@@ -232,9 +241,10 @@ class Prg {
         
     }
 }
-
+```
 
 -> Rotation of an array for k times(clockwise)
+```
 import java.util.Arrays;
 import java.util.Scanner;
 class Exm {
@@ -259,8 +269,9 @@ class Exm {
         
     }
 }
-
+```
 -> two sum
+```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
@@ -291,8 +302,9 @@ class Solution {
         return digits;
     }
 }
-
+```
 ->Rotation of an array for k times(clockwise)[ in O(n) ]
+```
 import java.util.Arrays;
 import java.util.Scanner;
 class Exm {
@@ -327,7 +339,7 @@ class Exm {
         
     }
 }
-
+```
 
 -> Rotation of an array for k times(counter clockwise)[ in O(n) ]
 //only the order of func calls will change
@@ -344,6 +356,7 @@ class Exm {
 
 
 ->
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -371,8 +384,10 @@ class Prg {
         
     }
 }
+```
 
 ->using bit manipulation
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -393,7 +408,7 @@ class Prg {
         
     }
 }
-
+```
 ##STRINGS
 
   s1 == s2		compares the objects
@@ -412,6 +427,7 @@ class Prg {
  
 
 //Printing mber of upper, lower and digits in a sentence
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -439,8 +455,9 @@ class Prg {
         
     }
 }
-
+```
 //Password checker
+```
 import java.util.Scanner;
 class Prg {
     public static void main(String[] args) {
@@ -478,9 +495,10 @@ class Prg {
         
     }
 }
-
+```
 
 // Pas checker which return minimum num of characters to add to make it valid
+```
 import java.util.Scanner;
 public class Mon {
     public static void main(String[] args) {
@@ -511,10 +529,11 @@ public class Mon {
         }
     }
 }
-
+```
 
 
 //reversing a string  -- O(n) & larger space comp for temp strings
+```
 import java.util.Scanner;
 class Exm {
     
@@ -533,11 +552,10 @@ class Exm {
         
     }
 }
-
-
-
+```
 
 //reversing a string  -- O(n/2) ,space - O(n) better than the prev one
+```
 import java.util.Scanner;
 class Exm {
     
@@ -559,13 +577,14 @@ class Exm {
         
     }
 }
-
+```
 
 //reversing a string using string builder -- better than the prev one
 
 
 
 //palindrome string or not -- T-O(n/2) S-O(1)
+```
 import java.util.Scanner;
 class Exm {
     
@@ -593,8 +612,10 @@ class Exm {
         
     }
 }
+```
 
 //position of character in string in alphabetical order
+```
 import java.util.Scanner;
 class Exm {
     
@@ -616,8 +637,9 @@ class Exm {
         
     }
 }
-
+```
 //encoding and decoding
+```
 import java.util.Scanner;
 class Exm {
     
@@ -644,9 +666,7 @@ class Exm {
         
     }
 }
-
-
-
+```
 
 //reversing a string using string builder -- better than the prev one
 
@@ -654,7 +674,8 @@ class Exm {
 
 
 
-###### // Valid paranthesis checker using ArrayList
+// Valid paranthesis checker using ArrayList
+```
 import java.util.*;
 class Exm {
     public static void main(String[] args) {
@@ -700,9 +721,10 @@ class Exm {
         ob.close();
     }
 }
+```
 
-
-###### // Valid paranthesis checker using stack
+// Valid paranthesis checker using stack
+```
 import java.util.*;
 class Exm {
     public static void main(String[] args) {
@@ -745,9 +767,10 @@ class Exm {
         ob.close();
     }
 }
+```
 
-
-##### // postfix expression
+// postfix expression
+```
 import java.util.*;
 class Exm {
     public static void main(String[] args) {
@@ -784,9 +807,10 @@ class Exm {
         ob.close();
     }
 }
+```
 
-
-##### // Print the key element which has the highest frequency(if 2 keys exists print the greater key )
+ // Print the key element which has the highest frequency(if 2 keys exists print the greater key )
+```
 import java.util.*;
 public class HshmapFunc {
     public static void main(String[] args) {
@@ -823,6 +847,7 @@ public class HshmapFunc {
         ob.close();
     }
 }
+```
 
 
 
