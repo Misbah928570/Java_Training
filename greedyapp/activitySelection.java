@@ -15,11 +15,12 @@ public class activitySelection {
         int lastend = list.get(0).endTime;
         for(int i=1;i< list.size();i++){
             if(list.get(i).startTime >= lastend){
-                System.out.println(list.get(i).endTime+" "+list.get(0).endTime);
+                System.out.println(list.get(i).startTime+" "+list.get(i).endTime);
                 cnt++;
                 lastend=list.get(i).endTime;
             }
         }
+        System.out.println(cnt);
 
     }
     public static void main(String[] args) {
